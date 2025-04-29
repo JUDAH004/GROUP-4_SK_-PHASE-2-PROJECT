@@ -1,4 +1,4 @@
-# MOVIE MARKET ANALYTSIS
+# MOVIE MARKET ANALYTICS
 ## Overview
 This project analyzes data from leading movie industry sources to uncover data-driven insights that will guide our company in launching a successful movie studio.The goal is to identify top-performing genres and emerging trends at the box office. By leveraging these insights, the company can make informed decisions and strategically create films that are positioned for commercial success.
 
