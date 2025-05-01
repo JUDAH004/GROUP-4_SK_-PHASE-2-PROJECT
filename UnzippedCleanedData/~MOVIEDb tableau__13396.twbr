@@ -1,0 +1,777 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.25.0208.0338                               -->
+<workbook original-version='18.1' source-build='2024.3.4 (20243.25.0208.0338)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='MOVIEDbtableau' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='TheMovieDBexploded' inline='true' name='federated.06to627107w0f21a5y36m1vyuaa0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='TheMovieDBexploded' name='textscan.1mzfvgq0rtf4ep1819rz21reve0s'>
+            <connection class='textscan' directory='C:/Users/JUDAH/Downloads' filename='TheMovieDBexploded.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1mzfvgq0rtf4ep1819rz21reve0s' name='TheMovieDBexploded.csv' table='[TheMovieDBexploded#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_KE' separator=','>
+            <column datatype='integer' name='genre_ids' ordinal='0' />
+            <column datatype='integer' name='id' ordinal='1' />
+            <column datatype='string' name='original_language' ordinal='2' />
+            <column datatype='string' name='original_title' ordinal='3' />
+            <column datatype='real' name='popularity' ordinal='4' />
+            <column datatype='date' name='release_date' ordinal='5' />
+            <column datatype='string' name='title' ordinal='6' />
+            <column datatype='real' name='vote_average' ordinal='7' />
+            <column datatype='integer' name='vote_count' ordinal='8' />
+            <column datatype='string' name='genre_name' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Ksh&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_KE&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre_ids</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[genre_ids]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>genre_ids</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>original_language</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[original_language]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>original_language</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>original_title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[original_title]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>original_title</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>popularity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[popularity]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>popularity</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[release_date]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>release_date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vote_average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[vote_average]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>vote_average</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vote_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vote_count]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>vote_count</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>genre_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[genre_name]</local-name>
+            <parent-name>[TheMovieDBexploded.csv]</parent-name>
+            <remote-alias>genre_name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='TheMovieDBexploded.csv' datatype='table' name='[__tableau_internal_object_id__].[TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2]' role='measure' type='quantitative' />
+      <column caption='Genre Ids' datatype='integer' name='[genre_ids]' role='measure' type='quantitative' />
+      <column caption='Genre Name' datatype='string' name='[genre_name]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Original Language' datatype='string' name='[original_language]' role='dimension' type='nominal' />
+      <column caption='Original Title' datatype='string' name='[original_title]' role='dimension' type='nominal' />
+      <column caption='Popularity' datatype='real' name='[popularity]' role='measure' type='quantitative' />
+      <column caption='Release Date' datatype='date' name='[release_date]' role='dimension' type='ordinal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Vote Average' datatype='real' name='[vote_average]' role='measure' type='quantitative' />
+      <column caption='Vote Count' datatype='integer' name='[vote_count]' role='measure' type='quantitative' />
+      <column-instance column='[genre_name]' derivation='None' name='[none:genre_name:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/JUDAH/AppData/Local/Temp/TableauTemp/#TableauTemp_07u05tm15ouswd12se897067wkhx.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>genre_ids</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[genre_ids]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre_ids</remote-alias>
+              <ordinal>0</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>20173</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>original_language</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[original_language]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>original_language</remote-alias>
+              <ordinal>2</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>original_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[original_title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>original_title</remote-alias>
+              <ordinal>3</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19594</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>popularity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[popularity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>popularity</remote-alias>
+              <ordinal>4</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8862</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>release_date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[release_date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>release_date</remote-alias>
+              <ordinal>5</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>4890</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>title</remote-alias>
+              <ordinal>6</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20173</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>vote_average</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[vote_average]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>vote_average</remote-alias>
+              <ordinal>7</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>109</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>vote_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[vote_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>vote_count</remote-alias>
+              <ordinal>8</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1425</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>genre_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[genre_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>genre_name</remote-alias>
+              <ordinal>9</ordinal>
+              <family>TheMovieDBexploded.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:genre_name:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Fantasy&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Crime&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mystery&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;History&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Documentary&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Western&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Adventure&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;TV Movie&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Drama&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Romance&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Science Fiction&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;War&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Horror&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Family&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Animation&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thriller&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Music&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Comedy&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Kenya&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='TheMovieDBexploded.csv' id='TheMovieDBexploded.csv_D0DB6455829E47E9B417D24444F922C2'>
+            <properties context=''>
+              <relation connection='textscan.1mzfvgq0rtf4ep1819rz21reve0s' name='TheMovieDBexploded.csv' table='[TheMovieDBexploded#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_KE' separator=','>
+                  <column datatype='integer' name='genre_ids' ordinal='0' />
+                  <column datatype='integer' name='id' ordinal='1' />
+                  <column datatype='string' name='original_language' ordinal='2' />
+                  <column datatype='string' name='original_title' ordinal='3' />
+                  <column datatype='real' name='popularity' ordinal='4' />
+                  <column datatype='date' name='release_date' ordinal='5' />
+                  <column datatype='string' name='title' ordinal='6' />
+                  <column datatype='real' name='vote_average' ordinal='7' />
+                  <column datatype='integer' name='vote_count' ordinal='8' />
+                  <column datatype='string' name='genre_name' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='GENRE VS POPULARITY'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TheMovieDBexploded' name='federated.06to627107w0f21a5y36m1vyuaa0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06to627107w0f21a5y36m1vyuaa0'>
+            <column caption='Genre Name' datatype='string' name='[genre_name]' role='dimension' type='nominal' />
+            <column-instance column='[genre_name]' derivation='None' name='[none:genre_name:nk]' pivot='key' type='nominal' />
+            <column caption='Popularity' datatype='real' name='[popularity]' role='measure' type='quantitative' />
+            <column-instance column='[popularity]' derivation='Sum' name='[sum:popularity:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]' direction='DESC' using='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' />
+              <text column='[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]</rows>
+        <cols>[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]</cols>
+      </table>
+      <simple-id uuid='{48D88CA1-9511-4AF7-BB43-96E3F8A81CD6}' />
+    </worksheet>
+    <worksheet name='GENRE VS VOTE COUNT'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TheMovieDBexploded' name='federated.06to627107w0f21a5y36m1vyuaa0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06to627107w0f21a5y36m1vyuaa0'>
+            <column caption='Genre Name' datatype='string' name='[genre_name]' role='dimension' type='nominal' />
+            <column-instance column='[genre_name]' derivation='None' name='[none:genre_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vote_count]' derivation='Sum' name='[sum:vote_count:qk]' pivot='key' type='quantitative' />
+            <column caption='Vote Count' datatype='integer' name='[vote_count]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]' direction='DESC' using='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#333333' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]</rows>
+        <cols>[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]</cols>
+      </table>
+      <simple-id uuid='{FF60EE43-CAE4-4672-8C5C-39FB62FBE330}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TheMovieDBexploded' name='federated.06to627107w0f21a5y36m1vyuaa0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.06to627107w0f21a5y36m1vyuaa0'>
+            <column caption='Genre Name' datatype='string' name='[genre_name]' role='dimension' type='nominal' />
+            <column-instance column='[genre_name]' derivation='None' name='[none:genre_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[vote_average]' derivation='Sum' name='[sum:vote_average:qk]' pivot='key' type='quantitative' />
+            <column caption='Vote Average' datatype='real' name='[vote_average]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_average:qk]</rows>
+        <cols>[federated.06to627107w0f21a5y36m1vyuaa0].[none:genre_name:nk]</cols>
+      </table>
+      <simple-id uuid='{EA27B7E7-D4CA-4504-9B24-3EE648866E8C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='MOVIEDB VISUALS'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97856' id='12' param='vert' type-v2='layout-flow' w='99002' x='499' y='1072'>
+            <zone h='7774' id='13' type-v2='title' w='99002' x='499' y='1072'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90082' id='7' param='horz' type-v2='layout-flow' w='99002' x='499' y='8846'>
+              <zone h='90082' id='5' type-v2='layout-basic' w='89027' x='499' y='8846'>
+                <zone h='45041' id='3' name='GENRE VS POPULARITY' w='89027' x='499' y='8846'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='45041' id='9' name='GENRE VS VOTE COUNT' w='89027' x='499' y='53887'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='160' h='90082' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='9975' x='89526' y='8846'>
+                <zone h='10858' id='8' name='GENRE VS POPULARITY' pane-specification-id='2' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' type-v2='color' w='9975' x='89526' y='8846'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='10858' id='10' name='GENRE VS VOTE COUNT' pane-specification-id='1' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]' type-v2='color' w='9975' x='89526' y='19704'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97856' id='16' param='vert' type-v2='layout-flow' w='99002' x='499' y='1072'>
+                <zone h='7774' id='13' type-v2='title' w='99002' x='499' y='1072'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45041' id='3' is-fixed='true' name='GENRE VS POPULARITY' w='89027' x='499' y='8846'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10858' id='8' name='GENRE VS POPULARITY' pane-specification-id='2' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' type-v2='color' w='9975' x='89526' y='8846'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45041' id='9' is-fixed='true' name='GENRE VS VOTE COUNT' w='89027' x='499' y='53887'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10858' id='10' name='GENRE VS VOTE COUNT' pane-specification-id='1' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]' type-v2='color' w='9975' x='89526' y='19704'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5801CBF7-A77E-4978-B84D-8539788A3D79}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='GENRE VS POPULARITY'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:popularity:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EDB698F1-B4D7-42FD-B54E-96E02AE0896D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='GENRE VS VOTE COUNT'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.06to627107w0f21a5y36m1vyuaa0].[sum:vote_count:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0703A88D-685B-45BD-B60A-E49BC29FE994}' />
+    </window>
+    <window class='dashboard' name='MOVIEDB VISUALS'>
+      <viewpoints>
+        <viewpoint name='GENRE VS POPULARITY'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='GENRE VS VOTE COUNT'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{57F985FD-6B90-47AB-B3E0-CD9151A5F10C}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5878ED1E-8E74-4344-9F41-3D0345D5BA59}' />
+    </window>
+  </windows>
+</workbook>
