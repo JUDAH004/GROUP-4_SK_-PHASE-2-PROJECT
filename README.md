@@ -120,10 +120,15 @@ These tools and technologies collectively enable efficient data exploration, cle
 📂 Repository Structure
 
 Cleaned/ → Folder containing the extracted cleaned dataset for interactive dashboard creation with Tableau
+
 Data/ → Folder containing datasets for analysis
+
 images/ → Folder containing key visualizations obtained from the analysis
+
 README.md → This document outlining project details
+
 index.ipynb → Jupyter Notebook containing the full analysis
+
 presentation.pdf → Presentation summarizing key insights and business recommendations for investors
 
 
