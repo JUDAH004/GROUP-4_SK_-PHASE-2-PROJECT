@@ -40,21 +40,21 @@ recommend concrete data-driven recommendations to support the success of the new
 ## Key Visualizations
 Visualizations presented in this project:
 1. **Top Performing Studios by Worldwide Gross**
-![da7c2b9f-faf0-462f-bad1-d6d2e0d45c4e](https://github.com/user-attachments/assets/970edb64-0e8d-4b0d-81a1-e92b54991e73)
+![ddf0c619-2139-4767-a736-1d983693333a](https://github.com/user-attachments/assets/02557c54-a62f-4160-a3ba-01730e61ea62)
 
 2. **Domestic vs. Foreign Revenue**
-![e42f39b6-6263-462a-a83a-d4d3427a4f0d](https://github.com/user-attachments/assets/9da94408-ed00-4a47-89a9-6b47c4bdd9f4)
+![85f646d4-61ae-4fd7-b99b-f18e2d00026c](https://github.com/user-attachments/assets/8f31c56a-21a4-4cff-a6a4-3a1a06f4cbfe)
 
 3. **Top Genres by Worldwide Gross**
-![424def01-4088-4714-9e4c-0871f2509f63](https://github.com/user-attachments/assets/9dd229aa-c030-4896-891d-2048257b0743)
+![1cc42eab-1b3b-4f28-9340-e3f3c77e734b](https://github.com/user-attachments/assets/f26a5fac-9f2a-4a5b-bade-cfe3ef7b8500)
 
-4. **The Most Popular Genre**
+4. **The Most Popular Genre(The Movie DB)**
  ![e687521d-632e-42f0-81fb-b146968be41a](https://github.com/user-attachments/assets/f0b61abf-70ca-4042-b111-6d82ad80a421)
 
-5. **ROI vs. Film Rating**
+5. **ROI vs. Film Rating(Rotten Tomatoes)**
 ![eeb3e46a-1ca8-4160-a1dc-e5eb83659014](https://github.com/user-attachments/assets/86e413cd-5475-4b9e-89e1-3927da9434b2)
 
-6. **Influence of Directors on Movie Rating**
+6. **Influence of Directors on Movie Rating(IMDB)**
 ![8bbf3180-c3b6-43a4-9364-bb3c090c8c7f](https://github.com/user-attachments/assets/d580ab46-b044-4652-a2c6-5ced0a5b669b)
 
 ## Tools & Technologies
