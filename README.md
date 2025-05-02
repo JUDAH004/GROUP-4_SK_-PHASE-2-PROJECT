@@ -118,6 +118,7 @@ The project utilizes the following tools and technologies:
 These tools and technologies collectively enable efficient data exploration, cleaning, analysis, and visualization to derive actionable business insights.
 
 📂 Repository Structure
+
 Cleaned/ → Folder containing the extracted cleaned dataset for interactive dashboard creation with Tableau
 Data/ → Folder containing datasets for analysis
 images/ → Folder containing key visualizations obtained from the analysis
