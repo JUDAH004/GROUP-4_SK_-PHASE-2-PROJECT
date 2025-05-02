@@ -38,3 +38,91 @@ To ensure thorough breakdown of the problem at hand, the project notebook shall 
 recommend concrete data-driven recommendations to support the success of the new movie studio.
 
 ## Key Visualizations
+Visualizations presented in this project:
+1. **Top Performing Studios by Worldwide Gross**
+![da7c2b9f-faf0-462f-bad1-d6d2e0d45c4e](https://github.com/user-attachments/assets/970edb64-0e8d-4b0d-81a1-e92b54991e73)
+
+2. **Domestic vs. Foreign Revenue**
+![e42f39b6-6263-462a-a83a-d4d3427a4f0d](https://github.com/user-attachments/assets/9da94408-ed00-4a47-89a9-6b47c4bdd9f4)
+
+3. **Top Genres by Worldwide Gross**
+![424def01-4088-4714-9e4c-0871f2509f63](https://github.com/user-attachments/assets/9dd229aa-c030-4896-891d-2048257b0743)
+
+4. **The Most Popular Genre**
+ ![e687521d-632e-42f0-81fb-b146968be41a](https://github.com/user-attachments/assets/f0b61abf-70ca-4042-b111-6d82ad80a421)
+
+5. **ROI vs. Film Rating**
+![eeb3e46a-1ca8-4160-a1dc-e5eb83659014](https://github.com/user-attachments/assets/86e413cd-5475-4b9e-89e1-3927da9434b2)
+
+6. **Influence of Directors on Movie Rating**
+![8bbf3180-c3b6-43a4-9364-bb3c090c8c7f](https://github.com/user-attachments/assets/d580ab46-b044-4652-a2c6-5ced0a5b669b)
+
+## Tools & Technologies
+The project utilizes the following tools and technologies:
+
+### **Programming Language**
+- **Python**: Used for data analysis, visualization, and statistical computations.
+
+### **Libraries and Frameworks**
+1. **Data Manipulation and Analysis**:
+   - **Pandas**: For data cleaning, manipulation, and merging datasets.
+   - **NumPy**: For numerical computations and handling arrays.
+
+2. **Data Visualization**:
+   - **Matplotlib**: For creating static, interactive, and publication-quality visualizations.
+   - **Seaborn**: For advanced statistical data visualization.
+
+3. **Statistical Analysis**:
+   - **SciPy**: For performing statistical tests like t-tests and correlation analysis.
+
+4. **String and Data Parsing**:
+   - **ast**: For safely evaluating strings containing Python literals (e.g., converting stringified lists to actual lists).
+
+5. **Database Interaction**:
+   - **SQLite3**: For querying and extracting data from SQLite databases.
+
+6. **File Handling**:
+   - **zipfile**: For extracting compressed files.
+   - **os**: For file path and directory management.
+
+### **Data Sources**
+- **Box Office Mojo**: For box office revenue data.
+- **The Numbers**: For movie budgets and financial performance.
+- **TMDB (The Movie Database)**: For genre, popularity, and audience ratings.
+- **Rotten Tomatoes**: For movie reviews and critic ratings.
+- **IMDb (Internet Movie Database)**: For movie metadata, ratings, and director information.
+
+### **File Formats**
+- **CSV**: Used for storing and processing datasets.
+- **TSV**: Tab-separated values for Rotten Tomatoes data.
+- **SQLite Database**: For structured data storage and querying (IMDb data).
+
+### **Statistical Techniques**
+- **T-Tests**: For comparing means (e.g., domestic vs. foreign revenue, high vs. low budget ROI).
+- **Pearson Correlation**: For analyzing relationships between variables (e.g., budget vs. gross).
+- **Composite Scoring**: For ranking directors based on normalized ratings and votes.
+
+### **Visualization Techniques**
+- **Bar Charts**: For comparing revenue, ROI, and genre popularity.
+- **Lollipop Charts**: For ranking directors by composite scores.
+- **Horizontal Bar Charts**: For revenue splits and genre analysis.
+
+### **Integrated Development Environment (IDE)**
+- **Jupyter Notebook**: For interactive data analysis and documentation.
+
+### **Data Cleaning and Preprocessing**
+- Handling missing values, duplicates, and inconsistent data.
+- Converting data types (e.g., dates, numeric values).
+- Exploding multi-value columns (e.g., genres) for granular analysis.
+
+These tools and technologies collectively enable efficient data exploration, cleaning, analysis, and visualization to derive actionable business insights.
+
+📂 Repository Structure
+Cleaned/ → Folder containing the extracted cleaned dataset for interactive dashboard creation with Tableau
+Data/ → Folder containing datasets for analysis
+images/ → Folder containing key visualizations obtained from the analysis
+README.md → This document outlining project details
+index.ipynb → Jupyter Notebook containing the full analysis
+presentation.pdf → Presentation summarizing key insights and business recommendations for investors
+
+
